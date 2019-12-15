@@ -1,5 +1,5 @@
-# MUSA620-Data-Wrangling
-Final Froject of MUSA620 in UPenn--Airbnb Price Prediction and Visualizaion
+# Airbnb Price Prediction and Visualizaion using Random Forest and Panel
+Final Froject of MUSA620-Data-Wrangling in UPenn
 
 Author Yichen Lei
 
