@@ -1,7 +1,7 @@
-# Airbnb Price Prediction and Visualizaion using Random Forest and Panel
+# Airbnb Price Prediction and Visualizaion
 Final Froject of MUSA620-Data-Wrangling in UPenn
 
-Author Yichen Lei
+Author: Yichen Lei
 
 December 14, 2019
 
@@ -13,7 +13,7 @@ December 14, 2019
 
 Airbnb, as a paid housing sharing system, has flourished in recent years. This unique business model provides travelers with an alternative to hotels, and also allows homeowners with vacant homes to rent out on the platform for revenue. Different from hotel rooms, there are many rooms on Airbnb whose properties are totally different Thus, it is difficult to have a unified pricing suitable for diverse rooms. Helping homeowners price their homes is the goal of this study.
 
-This project uses a random forest algorithm to predict the price of Airbnb in San Francisco using the properties of the house and the spatial properties of its location. Finally, an effective algorithm with a score of 92 on the test set was constructed. In addition, based on the prediction results of the algorithm, I built a web app to check the predicted price of Airbnb in San Francisco. It is built using panels, allowing users to filter by price range, review ratings, number of rooms, and house type. A histogram based on neighborhood statistics can change at the same time as the selection conditions change. Finally, there is a map showing the predicted error percentage, which provides users with the reliability of the results of the census tracts.
+This project uses Random Forest to predict the price of Airbnb in San Francisco using the properties of the house and the spatial properties of its location. Finally, an effective algorithm with a score of 92 on the test set was constructed. In addition, based on the prediction results of the algorithm, I built a web app to check the predicted price of Airbnb in San Francisco. It is built using panels, allowing users to filter by price range, review ratings, number of rooms, and house type. A histogram based on neighborhood statistics can change at the same time as the selection conditions change. Finally, there is a map showing the predicted error percentage, which provides users with the reliability of the results of the census tracts.
 
 ### DATA
 
