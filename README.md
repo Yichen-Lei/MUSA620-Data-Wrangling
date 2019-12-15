@@ -38,3 +38,13 @@ Finally, I created the map "Error Percentage by Census Tracts" and predictors' i
 #### Panel Web App
 
 The web app is built using panel. The main heatmap shows the spatial location of Airbnb. It can show the results that meet the requirements: predict price, review ratings, number of rooms, and room type. In the app function, I pass these variables to control functions. Points function controls the points to meet users' demands. Based on the results of the points function subset, the hist function counts the number in each neighborhood, which achieves the linkage with heatmap. Finally, I added the map of prediction error percentage to the web. This is a key result of the model and can tell users which regions have reliable prediction results.
+
+#### Results
+
+The test score of model is 0.92. "bedrooms" is the most important predictor in the model, whose importance is 0.368. The mean error percentage is 11.84%, the medium value of it is 6.66%. The census with max error percentage is 332.03; the census with min error percentage is 9802.
+
+The screen shot of my Web App is below:
+
+<p align='center'>
+<img src='Data/Web.png'style='max-width:600px'></img>
+</p>
